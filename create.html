@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Buff Project</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+<h1>Buff Blog</h1>
+	<div class="pill-nav">
+  <a href="index.html">Home</a>
+  <a class="active" href="create.html">Create Post Page</a>
+  <a href="search.html">Search Post Page</a>
+</div>
+	
+</head>
+
+<body>
+	<h2>Create a NEW post here </h2>
+	<form action="/my-handling-form-page" method="post">
+		
+	<div>
+    <label for="title">Blog Title:</label>
+    <input type="text" id="title" name="post_title">
+  </div>
+		
+  <div>
+    <label for="date">Date:</label>
+    <input type="text" id="date" name="post_date">
+  </div>
+		
+  <div>
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="user_name">
+  </div>
+		
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_mail">
+  </div>
+  <div>
+    <label for="content">Content:</label>
+    <textarea id="content" name="user_content"></textarea>
+  </div>
+		
+	<div> 
+		<button>SUBMIT</button>
+		</div>
+	</form>
+</body>
+	
+	<footer style="text-align: center; color: #000000">
+		
+<form method="post" action="dhernandezvelazquez@my.milligan.edu">
+	<h3> Contact Form</h3>
+  <div>
+    <label for="name">Name: <span class="required">*</span> </label>
+    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+  </div>
+	<br>
+  <div>
+    <label for="email">Email Address: <span class="required">*</span> </label>
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  	<br>
+  <div>
+    <label for="message">Message: <span class="required">*</span> </label>
+    <textarea id="message" name="message" placeholder="Write your message here." required ></textarea>
+  </div>
+  	<br>
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+
+    
+</footer>
+</html>
